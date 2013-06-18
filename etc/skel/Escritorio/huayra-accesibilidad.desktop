@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Activar soporte de accesibilidad
+Comment=Activar soporte de accesibilidad
+Exec=/usr/bin/huayra-accesibilidad
+Terminal=false
+Type=Application
+Icon=huayra-accesibilidad
+OnlyShowIn=MATE;

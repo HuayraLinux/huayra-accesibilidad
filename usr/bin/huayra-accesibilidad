@@ -1,0 +1,16 @@
+#!/bin/bash
+
+gsettings set org.gnome.desktop.interface toolkit-accessibility true
+gsettings set org.gnome.desktop.a11y.applications screen-reader-enabled true
+
+mkdir $HOME/.local/share/orca
+cp /etc/skel/.local/share/orca/user-settings.conf $HOME/.local/share/orca/
+
+zenity --info --text "A continuación se le pedira su contraseña para que los futuros inicios de sesión tengan soporte de accesibilidad"
+gksu huayra-accesibilidad-set-session $USER
+if [ $? -eq 0 ]; then
+	zenity --info --text "Reinicie la computadora para terminar de activar el soporte de accesibilidad"
+else
+	zenity --error --text "Ha ocurrido un error, por favor reintente"
+fi
+

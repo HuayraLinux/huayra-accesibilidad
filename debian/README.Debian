@@ -1,0 +1,8 @@
+huayra-desktop for Debian
+-------------------------------
+
+Este paquete solamente contiene dependencias hacia otros paquetes.
+Se agregaron overrides de Lintian por la simple razon de que no aplican 
+todas las reglas de Debian.
+
+ -- Huayra dev-team <huayradevel@listas.softwarelibreconcfk.com.ar>  Fri, 17 Aug 2012 18:15:31 -0300

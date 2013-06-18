@@ -1,0 +1,24 @@
+huayra-accesibilidad (0.4) testing; urgency=low
+
+  * Acceso directo en el escritorio
+  * Mejoras en script de setup de accesibilidad
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Mon, 17 Jun 2013 01:35:31 -0300
+
+huayra-accesibilidad (0.3) testing; urgency=low
+
+  * Acceso lanzador en el menu.
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Fri, 14 Jun 2013 17:42:55 -0300
+
+huayra-accesibilidad (0.2) testing; urgency=low
+
+  * Eliminando dependencias de gnome shell
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Fri, 14 Jun 2013 15:37:12 -0300
+
+huayra-accesibilidad (0.1) testing; urgency=low
+
+  * Initial release
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Thu, 13 Jun 2013 13:21:05 -0300

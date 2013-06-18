@@ -1,0 +1,4 @@
+usr/* /usr
+huayra-accesibilidad.svg usr/share/icons/hicolor/scalable/apps
+huayra-accesibilidad.desktop /usr/share/applications
+etc/* /etc
