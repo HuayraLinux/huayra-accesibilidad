@@ -23,7 +23,8 @@ Depends: ${misc:Depends},
   links2,
   mplayer,
   zenity,
-  gnome-applets
+  gnome-applets,
+  gnome-control-center
 Description: Entorno de escritorio accesible para Huayra
  Este paquete contiene el escritorio Gnome con configuración accesible y
  accesos directos para iniciar este entorno.

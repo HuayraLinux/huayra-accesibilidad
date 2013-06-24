@@ -1,3 +1,9 @@
+huayra-accesibilidad (0.5) UNRELEASED; urgency=low
+
+  * Dependencia a gnome-control-center
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Mon, 24 Jun 2013 12:44:40 -0300
+
 huayra-accesibilidad (0.4) testing; urgency=low
 
   * Acceso directo en el escritorio
