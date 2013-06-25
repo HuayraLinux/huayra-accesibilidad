@@ -1,7 +1,25 @@
 #! /bin/sh
-set -e
 
-dconf update
+if [ "$1" = "configure" ]; then
+
+	# Agregar el boton de shutdown al panel de gnome.
+	grep "Object btn-shutdown" /usr/share/gnome-panel/panel-default-layout.layout
+	if [ ! $? -eq 0 ]; then
+
+  cat >> /usr/share/gnome-panel/panel-default-layout.layout <<EOF
+
+[Object btn-shutdown]
+object-iid=PanelInternalFactory::ActionButton:shutdown
+toplevel-id=top-panel
+pack-type=end
+pack-index=0
+EOF
+
+	fi
+
+	dconf update
+
+fi
 #DEBHELPER#
 
 

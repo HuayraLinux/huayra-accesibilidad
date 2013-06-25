@@ -19,7 +19,7 @@ show-desktop-icons=true
 picture-options='stretched'
 
 [org/gnome/settings-daemon/peripherals/touchpad]
-tap-to-click=false
+tap-to-click=true
 
 [org/gnome/desktop/default-applications/office/calendar]
 exec='icedove'
@@ -48,12 +48,3 @@ compositing-manager=false
 [apps/cheese]
 video-x-resolution=640
 video-y-resolution=480
-
-[org/gnome/gnome-panel/layout]
-object-id-list=['menu-bar', 'clock', 'notification-area', 'button-shutdown', 'window-list', 'workspace-switcher', 'user-menu']
-
-[org/gnome/gnome-panel/layout/objects/button-shutdown]
-object-iid='PanelInternalFactory::ActionButton:shutdown'
-pack-index=0
-pack-type='end'
-toplevel-id='top-panel'

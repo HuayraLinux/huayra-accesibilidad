@@ -1,6 +1,8 @@
-huayra-accesibilidad (0.5) UNRELEASED; urgency=low
+huayra-accesibilidad (0.5) testing; urgency=low
 
   * Dependencia a gnome-control-center
+  * Boton de apagado
+  * Acceso directo a configuración de accesibilidad
 
  -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Mon, 24 Jun 2013 12:44:40 -0300
 
