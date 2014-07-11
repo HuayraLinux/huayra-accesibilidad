@@ -1,3 +1,0 @@
-#!/bin/bash
-
-sed -i -e 's/XSession=.*/XSession=huayra-accesible/' /var/lib/AccountsService/users/$1

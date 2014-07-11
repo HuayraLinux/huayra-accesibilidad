@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Maximo volumen
-Icon=huayra-accesibilidad
-Exec=pactl set-sink-volume 0 65000
-Type=Application
-Categories=
-NoDisplay=true
-AutostartCondition=GSettings org.gnome.desktop.a11y.applications screen-reader-enabled
