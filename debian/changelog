@@ -1,3 +1,9 @@
+huayra-accesibilidad (0.7) unstable; urgency=low
+
+  * Fixes para deshabilitar docky en modo accesible
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Thu, 17 Jul 2014 13:09:56 -0300
+
 huayra-accesibilidad (0.6) unstable; urgency=low
 
   * Fixes para Huayra Pampero 

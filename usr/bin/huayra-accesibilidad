@@ -8,9 +8,14 @@ if [ $? -eq 0 ]; then
     mkdir ~/.local/share/orca
     cp /etc/skel/.local/share/orca/user-settings.conf ~/.local/share/orca/
 
-    rm -rf ~/.config/autostart/docky.desktop
+    if [ ! -f ~/.config/autostart/docky.desktop ] && [ -f /etc/xdg/autostart/docky.desktop ]; then
+        cp /etc/xdg/autostart/docky.desktop ~/.config/autostart/
+    fi
 
+    if [ ! -f ~/.config/autostart/docky.desktop ]; then
+        echo "OnlyShowIn=MATE;" >> ~/.config/autostart/docky.desktop
+    fi
+    
     sed -i -e 's/Session=.*/Session=huayra-accesible/' ~/.dmrc
 	zenity --info --text "Reinicie la computadora para terminar de activar el soporte de accesibilidad"
 fi
-
