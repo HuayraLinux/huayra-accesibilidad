@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Orca screen reader
-Exec=orca --no-setup --disable main-window,splash-window --enable speech,braille
-NoDisplay=true
-X-GNOME-AutoRestart=true
-#X-GNOME-Autostart-Phase=Initialization
-OnlyShowIn=huayra-accesible;

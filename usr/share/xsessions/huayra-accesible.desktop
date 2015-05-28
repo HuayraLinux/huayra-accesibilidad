@@ -1,6 +1,0 @@
-[Desktop Entry]
-Name=HuayraAccesible
-Comment=Huayra con soporte de accesibilidad
-Exec=gnome-session-fallback
-Icon=
-Type=Application

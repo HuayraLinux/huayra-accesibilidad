@@ -5,6 +5,7 @@ Upstream-Name: huayra-accesibilidad
 # the following clauses, or change it to suit. Delete these two lines
 Files: debian/*
 Copyright: 2013 Miguel Angel Garcia <miguel.garcia@gmail.com>
+           2015 Fernando Toledo <ragnarok@docksud.com.ar>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by

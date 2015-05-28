@@ -1,3 +1,9 @@
+huayra-accesibilidad (0.8) unstable; urgency=medium
+
+  * Reorganiznado las herramientas de accesibilidad
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 28 May 2015 13:01:41 -0300
+
 huayra-accesibilidad (0.7) unstable; urgency=low
 
   * Fixes para deshabilitar docky en modo accesible

@@ -1,30 +1,16 @@
 Source: huayra-accesibilidad
 Section: x11
 Priority: extra
-Maintainer: Miguel Angel Garcia <miguel.garcia@gmail.com>
+Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
 Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 3.9.3
+Standards-Version: 3.9.6
 Homepage: http://huayra.conectarigualdad.gob.ar
-
 
 Package: huayra-accesibilidad
 Architecture: all
-Depends: ${misc:Depends},
-  gnome-orca,
-  at-spi2-core,
-  gnome-session-fallback,
-  gnome-terminal,
-  huayra-icon-theme-all,
-  nautilus,
-  nautilus-image-converter,
-  nautilus-open-terminal,
-  iceweasel,
-  iceweasel-l10n-es-ar,
-  links2,
-  mplayer,
-  zenity,
-  gnome-applets,
-  gnome-control-center
-Description: Entorno de escritorio accesible para Huayra
- Este paquete contiene el escritorio Gnome con configuración accesible y
- accesos directos para iniciar este entorno.
+Depends: ${misc:Depends}, huayra-accesibility-settings
+Description: Herramientas de accesibilidad para Huayra
+ Este paquete contiene varias herramientas de software para
+ trabajar en un entorno accessible.
+ .
+ dummy package.
