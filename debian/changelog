@@ -1,3 +1,9 @@
+huayra-accesibilidad (0.9) unstable; urgency=medium
+
+  * Dependencia en cups-indexbraille
+
+ -- Mauro <mauro@sdf.org>  Thu, 28 May 2015 15:59:46 -0300
+
 huayra-accesibilidad (0.8) unstable; urgency=medium
 
   * Reorganiznado las herramientas de accesibilidad

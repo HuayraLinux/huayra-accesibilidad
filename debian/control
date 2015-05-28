@@ -8,7 +8,7 @@ Homepage: http://huayra.conectarigualdad.gob.ar
 
 Package: huayra-accesibilidad
 Architecture: all
-Depends: ${misc:Depends}, huayra-accesibility-settings
+Depends: ${misc:Depends}, huayra-accesibility-settings, cups-indexbraille
 Description: Herramientas de accesibilidad para Huayra
  Este paquete contiene varias herramientas de software para
  trabajar en un entorno accessible.
